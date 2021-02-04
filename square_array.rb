@@ -1,8 +1,8 @@
 def square_array(array)
 numbers = [1,2,3]
 
-array.each {|a| a**2}
-numbers = []
+array.each { |a| numbers << a**2}
+numbers 
 end
 #[].tap do |a|
 #def square_array(new_numbers)
