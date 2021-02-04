@@ -1,7 +1,7 @@
 def square_array(array)
 #numbers = [1,2,3]
 
-array.each {|a| numbers << a**2}
+numbers.each {|a| print a**2}
 
 end
 #[].tap do |a|
