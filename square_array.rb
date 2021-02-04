@@ -1,9 +1,8 @@
 def square_array(array)
 number = [1,2,3]
-[].tap do |a|
-array.each{ |number| a << number**2}
+numbers.eachc do {|a| a**2}
 end
-
+#[].tap do |a|
 #def square_array(new_numbers)
 #new_number = [9,10,15,25]
  #square_array(new_numbers)
