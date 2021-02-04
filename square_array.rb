@@ -1,5 +1,5 @@
 def square_array(array)
-number = [1,2,3]
+numbers = [1,2,3]
 numbers.each {|a| a**2}
 end
 #[].tap do |a|
