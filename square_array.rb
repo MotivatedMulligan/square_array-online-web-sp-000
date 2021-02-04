@@ -1,6 +1,7 @@
 def square_array(array)
 numbers = [1,2,3]
-array = numbers.each {|a| a**2}
+secon_array = numbers.each {|a| a**2}
+
 end
 #[].tap do |a|
 #def square_array(new_numbers)
