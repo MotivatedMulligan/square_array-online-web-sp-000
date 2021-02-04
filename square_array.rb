@@ -1,6 +1,6 @@
 def square_array(array)
 number = [1,2,3]
-array.each({|number| print number**2, " "})
+array.each{ |a| print a**2, " "}
 
 end
 
