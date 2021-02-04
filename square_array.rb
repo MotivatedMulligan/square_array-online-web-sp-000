@@ -1,6 +1,7 @@
-def square_array(number)
+def square_array(array)
 number = [1,2,3]
-return array.each {|number| number**2}
+array.each {|number| number**2}
+number
 end
 
  #new_numbers = [9,10,16,25]
