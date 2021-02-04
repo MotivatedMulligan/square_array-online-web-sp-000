@@ -1,6 +1,6 @@
 def square_array(numbers)
 numbers = [1,2,3]
-numbers.each {|a| Array < a**2}
+numbers.each {|a| numbers < a**2}
 end
 #[].tap do |a|
 #def square_array(new_numbers)
