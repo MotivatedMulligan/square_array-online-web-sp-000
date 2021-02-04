@@ -1,7 +1,7 @@
 def square_array(array)
 Enumerator.new do |y|
 numbers = [1,2,3]
-array.collect {|a| y << a**2}
+array.each {|a| y << a**2}
 end
 .take(array.length)
 end
